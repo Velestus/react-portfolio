@@ -1,0 +1,39 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    margin-bottom: 16px;
+}
+.title {
+    padding-left: 16px;
+}
+.NavBar {
+    width: 1200px;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+}
+.NavBar > li {
+    display: inline-block;
+}
+.NavBar > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+.NavBar > li > a:hover {
+    background-color: #111;
+    border-radius: 12px;
+}
+.NavBar > li > a.is-active {
+    background-color: #222;
+    border-radius: 12px;
+    outline: 0;
+}
+.NavBar > li > a:focus {
+    outline: 0;
+}

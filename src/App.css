@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.Main-body {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: center;
+  color: black;
+  margin-bottom: 16px;
+}
+.Main-container {
+  width: 1200px;
+  border: 3px solid #333;
+  border-radius: 24px;
+  -webkit-box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+  -moz-box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+  box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+  margin: 14px 16px;
+  background-color: #333;
+}
+
+

@@ -1,0 +1,52 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+.About-heading {
+    border-bottom: 3px solid #333;
+    color: white;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.About-photo {
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 16px;
+    -webkit-box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+    -moz-box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+    box-shadow: 0px 10px 13px 5px rgba(69,67,69,1);
+}
+.About-body {
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    flex-grow: 1;
+}
+.About-list {
+    text-align: start;
+}
+.About-icon {
+    cursor: pointer;
+}
+.About-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.About-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blue {
+    color: blue;
+}
