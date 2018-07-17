@@ -14,3 +14,6 @@ During development of this website I was practicing usage of `display: flex`. Th
 For now, website supports only Polish language. I am planning to add support for more languages in the future.
 
 Project tab consists of projects container and component for single project card. At the day of writing this file (17 July 2018) I was creating every single card inside projects container. In the future I am planning to move this data into JSON file and map through array of projects.
+
+To view the website in action, follow [link to the live website](http://bborawski.pl "Mine portfolio").
+Thanks for viewing!
